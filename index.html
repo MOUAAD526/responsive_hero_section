@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<title>Heros</title>
-
+	<!--    ------ style css -----      -->
 	<link rel="stylesheet" href="css/style.css" />
-	<!-- <link rel="stylesheet" href="css/default.css" /> -->
-
-
+        <!--    ------ font-awesome -----      -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
 </head>
-
 <body>
   <main>
 	<!-- ===========   section__1   ========== -->
 	<section id="home" class="section-1">
-		<div class="container">
+	   <div class="container">
+	    <nav class="hero__nav">
 
-			<nav class="hero__nav">
-
-				<div class="nav__logo"><a href="#home">Logo</a></div>
-
-				<ul class="nav-links">
-					<li>
-						<a href="#home" class="active__link"><i class="fas fa-home"></i> Home</a
-                >
+	     <div class="nav__logo"><a href="#home">Logo</a></div>
+	     <ul class="nav-links">
+	      <li>
+		 <a href="#home" class="active__link"><i class="fas fa-home"></i> Home</a>
               </li>
               <li>
                 <a href="#About"><i class="fas fa-info-circle"></i> About</a>
@@ -39,7 +32,6 @@
                 <a href="#"><i class="fas fa-address-card"></i> Contact</a>
               </li>
             </ul>
-
             <div class="mobile__nav__icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
               <i class="far fa-times-circle"></i>
@@ -47,12 +39,11 @@
 
           </nav>
 
-          <div class="text__box">
+          <div class="text__box">	  
             <h1 class="hero__heading">
               <span>A healthy</span> meal delivered to your door, every single
               day
             </h1>
-
             <p>
               The smart 365-days-per-year food subscription that will make you
               eat healty algain. Tailored to your personal tastes and
@@ -61,14 +52,16 @@
             <a href="#" class="main__btn"
               ><span>Order Now!</span
               ><i class="fas fa-angle-double-right main__btn-icon"></i
-            ></a>
+            ></a>	  
           </div>
+		   
         </div>
       </section>
 
       <!-- ===========   section-2   ========== -->
       <section class="section-2" id="About">
         <div class="container">
+		
           <div class="box">
         <h2 class="box__title" >The next generation of the web</h2>
             <p class="box__text" >

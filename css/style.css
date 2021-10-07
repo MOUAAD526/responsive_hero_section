@@ -45,6 +45,7 @@
 main {
   display: grid;
   gap: 2.5rem;
+  background-color:var(--clr-dark);
 }
 section {
   width: max(20rem, 100%);

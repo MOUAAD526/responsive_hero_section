@@ -4,7 +4,6 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 4.5rem;
-  box-sizing: border-box;
 }
 *,
 *::before,
@@ -15,6 +14,7 @@ html {
   border: none;
 }
 body {
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-size: 100%;
   line-height: 1;
